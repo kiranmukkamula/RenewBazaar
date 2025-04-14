@@ -56,38 +56,50 @@
          </div>
         </section>
         <section class="mb-12">
-         <h2 class="text-3xl font-bold text-center mb-8">
-          Meet the Team
-         </h2>
-         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="text-center">
-           <img alt="Portrait of John Doe, CEO of Renew Bazaar" class="rounded-full mx-auto mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/xfEFF4I34tBIgTlq5m2zLbrRW5nzCogRT58-TfsSHIc.jpg" width="200"/>
-           <h3 class="text-xl font-bold">
-            John Doe
-           </h3>
-           <p class="text-gray-600">
-            CEO
-           </p>
-          </div>
-          <div class="text-center">
-           <img alt="Portrait of Jane Smith, COO of Renew Bazaar" class="rounded-full mx-auto mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/kWXlw9jn2GAXBkXq8fA36T0N3k8GVH9OzomOpHhwpIc.jpg" width="200"/>
-           <h3 class="text-xl font-bold">
-            Jane Smith
-           </h3>
-           <p class="text-gray-600">
-            COO
-           </p>
-          </div>
-          <div class="text-center">
-           <img alt="Portrait of Emily Johnson, CTO of Renew Bazaar" class="rounded-full mx-auto mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/vgKR0TPpNdtIcHuPd6ij5DXU2W6yTXLbBT--XuAS-FQ.jpg" width="200"/>
-           <h3 class="text-xl font-bold">
-            Emily Johnson
-           </h3>
-           <p class="text-gray-600">
-            CTO
-           </p>
-          </div>
-         </div>
+            <h2 class="text-3xl font-bold text-center mb-8">
+                Meet the Team
+            </h2>
+<div class="flex flex-wrap justify-center gap-12">
+                <div class="text-center">
+                    <img alt="Portrait of John Doe, CEO of Renew Bazaar" class="rounded-full mx-auto mb-4" 
+                        src="../assets/images/kiran.jpeg"
+                      height="150"  width="180" />
+                    <h3 class="text-xl font-bold">
+                        Kiran Mukkamula
+                    </h3>
+                   
+                </div>
+                <div class="text-center">
+                    <img alt="Portrait of Jane Smith, COO of Renew Bazaar" class="rounded-full mx-auto mb-4"
+                        
+                        src="../assets/images/gaurav.jpeg"
+                       height="250"  width="220" />
+                    <h3 class="text-xl font-bold">
+                        Gaurav Yadav
+                    </h3>
+                    
+                </div>
+                <div class="text-center">
+                    <img alt="Portrait of Emily Johnson, CTO of Renew Bazaar" class="rounded-full mx-auto mb-4"
+                       
+                        src="../assets/images/ashok.jpeg"
+                       height="150"  width="180" />
+                    <h3 class="text-xl font-bold">
+                        Ashok
+                    </h3>
+                    
+                </div>
+                <div class="text-center">
+                    <img alt="Portrait of Emily Johnson, CTO of Renew Bazaar" class="rounded-full mx-auto mb-4"
+                      
+                        src="../assets/images/sundaram.jpeg"
+                       height="150"  width="180" />
+                    <h3 class="text-xl font-bold">
+                        Sundaram
+                    </h3>
+                    
+                </div>
+            </div>
         </section>
         <section class="text-center">
          <h2 class="text-3xl font-bold mb-4">
@@ -96,16 +108,14 @@
          <p class="text-gray-600 mb-8">
           We are always looking for passionate and talented individuals to join our team. If you are interested in working with us, please get in touch!
          </p>
-         <a class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700" href="contact.html">
+         <a class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700" href="contact.php">
           Contact Us
          </a>
         </section>
        </main>
     
-    <!-- <div id="footer-container"></div> -->
     <?php include 'footer.php'; ?>
     
-    <script src="../assets/js/layout.js"></script>
     
 </body>
 </html>
