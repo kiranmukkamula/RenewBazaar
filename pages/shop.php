@@ -18,7 +18,7 @@ session_start();
     
 <header class="bg-white shadow-md sticky top-0 z-50">
     <div class="container mx-auto flex justify-between items-center p-6">
-        <a href="index.html" class="text-3xl font-bold text-indigo-700 relative group inline-block">
+        <a href="index.php" class="text-3xl font-bold text-indigo-700 relative group inline-block">
             <span class="text-orange-500">ReNew</span>Bazaar
             <span class="left-0 absolute -bottom-1 w-0 h-0.5 bg-violet-600 transition-all duration-300 group-hover:w-full"></span>
         </a>
@@ -55,38 +55,38 @@ session_start();
             <ul class="flex space-x-6 text-lg">
                    
                 <li>
-                    <a href="../pages/index.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
+                    <a href="index.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
                         Home
                         <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-indigo-700 transition-all duration-300 group-hover:w-full"></span>
                     </a>
                 </li>
                 <li>
-                    <a href="../pages/shop.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
+                    <a href="shop.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
                         Shop
                         <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-indigo-700 transition-all duration-300 group-hover:w-full"></span>
                     </a>
                 </li>
                 
                 <li>
-                    <a href="../pages/about.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
+                    <a href="about.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
                         About
                         <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-indigo-700 transition-all duration-300 group-hover:w-full"></span>
                     </a>
                 </li>
                 <li>
-                    <a href="../pages/contact.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
+                    <a href="contact.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
                         Contact
                         <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-indigo-700 transition-all duration-300 group-hover:w-full"></span>
                     </a>
                 </li>
                 <li>
-                    <a href="http://localhost/cse220/logout.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
+                    <a href="../logout.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
                         Logout
                         <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-indigo-700 transition-all duration-300 group-hover:w-full"></span>
                     </a>
                 </li>
                 <li>
-                    <a href="../pages/login.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
+                    <a href="login.php" class="text-xl relative group inline-block text-gray-700 hover:text-indigo-600 transition-colors duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A4 4 0 0112 15a4 4 0 016.879 2.804M12 12a4 4 0 110-8 4 4 0 010 8z"/>
                         </svg>
@@ -482,7 +482,7 @@ session_start();
     </a>
     <a href="book.php?name=2BHK Flat&amp;description=Modular kitchen with ample storage and granite countertops.&amp;price=₹15,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=VC123&amp;image=../assets/images/1bhk2.jpg" 
        class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
-        Add to Cart
+          Book Now
     </a>
 </div>
                   </div>
@@ -497,9 +497,9 @@ session_start();
                       <p class="text-lg font-bold text-indigo-600 mt-2">₹24,00,000</p>
                       <div class="mt-3 flex justify-between items-center">
                           <a href="book.php?name=1BHK (2nd Floor)&amp;description=Spacious living room with good ventilation and natural light. &amp;price=₹24,00,000 &amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=DL123&amp;image=../assets/images/2bhk1.jpg" class="text-blue-600 hover:underline font-medium">View Details</a>
-                          <button class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
-                              Add to Cart
-                          </button>
+                         
+                          <a href="book.php?name=1BHK (2nd Floor)&amp;description=Spacious living room with good ventilation and natural light. &amp;price=₹24,00,000 &amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=DL123&amp;image=../assets/images/2bhk1.jpg"  class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
+                              Book Now </a>
                       </div>
                   </div>
               </div>
@@ -514,9 +514,9 @@ session_start();
                       <p class="text-lg font-bold text-indigo-600 mt-2">₹45,00,000</p>
                       <div class="mt-3 flex justify-between items-center">
                           <a href="book.php?name=3BHK (Ground Floor)&amp;description=Well-connected to public transport, metro, and major roads/highways.&amp;price=₹45,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=WA123&amp;image=../assets/images/2bhk3.webp" class="text-blue-600 hover:underline font-medium">View Details</a>
-                          <button class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
-                              Add to Cart
-                          </button>
+                          <a href="book.php?name=3BHK (Ground Floor)&amp;description=Well-connected to public transport, metro, and major roads/highways.&amp;price=₹45,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=WA123&amp;image=../assets/images/2bhk3.webp" class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
+                              Book Now
+                          </a>
                       </div>
                   </div>
               </div>
@@ -530,9 +530,9 @@ session_start();
                       <p class="text-lg font-bold text-indigo-600 mt-2">₹60,00,000</p>
                       <div class="mt-3 flex justify-between items-center">
                           <a href="book.php?name=House For Sale &amp;description=Close to schools, colleges, hospitals, shopping malls, and restaurants.&amp;price=₹60,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS123&amp;image=../assets/images/h1.webp" class="text-blue-600 hover:underline font-medium">View Details</a>
-                          <button class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
-                              Add to Cart
-                          </button>
+                           <a href="book.php?name=House For Sale &amp;description=Close to schools, colleges, hospitals, shopping malls, and restaurants.&amp;price=₹60,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS123&amp;image=../assets/images/h1.webp" class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
+                              Book Now
+                          </a>
                       </div>
                   </div>
               </div>
@@ -546,9 +546,9 @@ session_start();
                       <p class="text-lg font-bold text-indigo-600 mt-2">₹35,00,000</p>
                       <div class="mt-3 flex justify-between items-center">
                           <a href="book.php?name=House For Sale (with garden)&amp;description=Attached western-style bathrooms with geysers installed.&amp;price=₹35,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS124&amp;image=../assets/images/h2.avif" class="text-blue-600 hover:underline font-medium">View Details</a>
-                          <button class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
-                              Add to Cart
-                          </button>
+                          <a href="book.php?name=House For Sale (with garden)&amp;description=Attached western-style bathrooms with geysers installed.&amp;price=₹35,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS124&amp;image=../assets/images/h2.avif" class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
+                              Book Now
+                          </a>
                       </div>
                   </div>
               </div>
@@ -562,9 +562,9 @@ session_start();
                       <p class="text-lg font-bold text-indigo-600 mt-2">₹70,00,000</p>
                       <div class="mt-3 flex justify-between items-center">
                           <a href="book.php?name=House For Sale Near to Main Road&amp;description=Balcony with a great view (garden/road/city view).&amp;price=₹70,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS125&amp;image=../assets/images/h5.webp" class="text-blue-600 hover:underline font-medium">View Details</a>
-                          <button class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
-                              Add to Cart
-                          </button>
+                          <a href="book.php?name=House For Sale Near to Main Road&amp;description=Balcony with a great view (garden/road/city view).&amp;price=₹70,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS125&amp;image=../assets/images/h5.webp" class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
+                              Book Now
+                          </a>
                       </div>
                   </div>
               </div>
@@ -578,9 +578,9 @@ session_start();
                       <p class="text-lg font-bold text-indigo-600 mt-2">₹90,00,000</p>
                       <div class="mt-3 flex justify-between items-center">
                           <a href="book.php?name=House For Sale&amp;description=Located with 2 floors of a well-maintained apartment building.&amp;price=₹90,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS126&amp;image=../assets/images/h6.jpg" class="text-blue-600 hover:underline font-medium">View Details</a>
-                          <button class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
-                              Add to Cart
-                          </button>
+                         <a href="book.php?name=House For Sale&amp;description=Located with 2 floors of a well-maintained apartment building.&amp;price=₹90,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS126&amp;image=../assets/images/h6.jpg" class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
+                              Book Now
+                          </a>
                       </div>
                   </div>
               </div>
@@ -594,9 +594,9 @@ session_start();
                       <p class="text-lg font-bold text-indigo-600 mt-2">₹55,00,000</p>
                       <div class="mt-3 flex justify-between items-center">
                           <a href="book.php?name=2BHK Near to Law Gate&amp;description=Modular kitchen with ample storage and granite countertops.&amp;price=₹55,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS127&amp;image=../assets/images/3bhk4.jpg" class="text-blue-600 hover:underline font-medium">View Details</a>
-                          <button class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
-                              Add to Cart
-                          </button>
+                          <a href="book.php?name=2BHK Near to Law Gate&amp;description=Modular kitchen with ample storage and granite countertops.&amp;price=₹55,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS127&amp;image=../assets/images/3bhk4.jpg" class=" bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
+                              Book Now
+                          </a>
                       </div>
                   </div>
               </div>
@@ -610,9 +610,9 @@ session_start();
                       <p class="text-lg font-bold text-indigo-600 mt-2">₹98,00,000</p>
                       <div class="mt-3 flex justify-between items-center">
                           <a href="book.php?name=House For Sale (Deep Nagae)&amp;description=Well-connected to public transport, metro, and major roads/highways.&amp;price=₹98,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS128&amp;image=../assets/images/h4.avif" class="text-blue-600 hover:underline font-medium">View Details</a>
-                          <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
-                              Add to Cart
-                          </button>
+                          <a href="book.php?name=House For Sale (Deep Nagae)&amp;description=Well-connected to public transport, metro, and major roads/highways.&amp;price=₹98,00,000&amp;category=Home &amp; Decor&amp;availability=In Stock&amp;sku=FS128&amp;image=../assets/images/h4.avif" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2 rounded-md transition-colors">
+                              Book Now
+                          </a>
                       </div>
                   </div>
               </div>
@@ -628,7 +628,6 @@ session_start();
           <button id="close-cart-sidebar" class="text-gray-500 hover:text-gray-800 text-2xl">&times;</button>
       </div>
       <div id="cart-items-container" class="p-4 overflow-y-auto" style="max-height: calc(100% - 160px);">
-          <!-- Cart items will be rendered here -->
       </div>
       <div class="p-4 border-t">
           <div class="flex justify-between items-center mb-4">
@@ -645,7 +644,6 @@ session_start();
  <?php include 'footer.php'; ?>
 </body>
 </html>
-  <script src="../assets/js/layout.js"></script>
   <script>
     tailwind.config = {
     theme: {
@@ -838,42 +836,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // if (checkoutButton) {
-    //     checkoutButton.addEventListener('click', async () => {
-    //         const selectedProducts = [];
-    //         let totalPrice = 0;
-
-    //         for (let key in cart) {
-    //             selectedProducts.push(cart[key].name);
-    //             totalPrice += cart[key].price * cart[key].quantity;
-    //         }
-
-    //         const productsString = selectedProducts.join(", ");
-    //         const orderData = {
-    //             products: productsString,
-    //             totalPrice: totalPrice.toFixed(2)
-    //         };
-    //         try {
-    //             const response = await fetch('/cse220/checkout.php', {
-    //                 method: 'POST',
-    //                 headers: {
-    //                     'Content-Type': 'application/json'
-    //                 },
-    //                 body: JSON.stringify(orderData)
-    //             });
-
-    //             const result = await response.json();
-    //             if (result.success) {
-    //                 window.location.href = '/cse220/pages/checkout.html';
-    //             } else {
-    //                 alert('Error placing order. Please try again.');
-    //             }
-    //         } catch (error) {
-    //             console.error('Error:', error);
-    //             alert('Something went wrong!');
-    //         }
-    //     });
-    // }
+   
 
     if (checkoutButton) {
         checkoutButton.addEventListener('click', async () => {
