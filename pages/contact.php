@@ -10,6 +10,21 @@
         body {
             font-family: 'Inter', sans-serif;
         }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    .animate-fade-in {
+        animation: fadeIn 0.3s ease-out forwards;
+    }
+</style>
+
     </style>
 </head>
 <body class="bg-gray-100 dark:bg-gray-900">
@@ -36,10 +51,11 @@
                             <label class="block text-gray-700 dark:text-gray-300 font-medium mb-2">Your Message</label>
                             <textarea class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:bg-gray-600 dark:border-gray-500 transition duration-300" rows="4" placeholder="How can we help you?"></textarea>
                         </div>
-                        <button class="w-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-medium px-6 py-3 rounded-lg hover:from-indigo-600 hover:to-purple-600 transform hover:-translate-y-1 transition duration-300 shadow-lg">
-                            Send Message
-                            <i class="fas fa-paper-plane ml-2"></i>
-                        </button>
+                        <button onclick="send(event)" type="submit" class="w-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-medium px-6 py-3 rounded-lg hover:from-indigo-600 hover:to-purple-600 transform hover:-translate-y-1 transition duration-300 shadow-lg">
+    Send Message
+    <i class="fas fa-paper-plane ml-2"></i>
+</button>
+
                     </form>
                 </div>
                 <div class="bg-white dark:bg-gray-700 p-8 rounded-2xl shadow-xl space-y-8">
@@ -67,7 +83,7 @@
                         </div>
                         <div>
                             <h3 class="font-semibold text-gray-900 dark:text-white mb-1">Email Us</h3>
-                            <p class="text-gray-600 dark:text-gray-300">contact@renewbazaar.com</p>
+                            <p class="text-gray-600 dark:text-gray-300">contact@renewbazaar1.com</p>
                         </div>
                     </div>
                 </div>
@@ -76,7 +92,35 @@
     </section>
     
     <?php include 'footer.php'; ?>
-    
-    <script src="../assets/js/layout.js"></script>
+    <!-- Success Popup -->
+<div id="successBox" class="fixed inset-0 flex items-center justify-center bg-black/40 z-50 hidden">
+  <div class="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-2xl max-w-sm w-full text-center animate-fade-in">
+    <div class="flex justify-center mb-4">
+      <div class="bg-green-100 p-4 rounded-full">
+        <i class="fas fa-check text-green-600 text-3xl"></i>
+      </div>
+    </div>
+    <h3 class="text-xl font-semibold text-gray-800 dark:text-white">Message Sent!</h3>
+    <p class="text-gray-600 dark:text-gray-300 mt-1">Successfully sent to ReNew Bazaar.</p>
+    <button onclick="closePopup()" class="mt-6 px-8 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-lg hover:from-indigo-600 hover:to-purple-600 transition duration-300">
+      Close
+    </button>
+  </div>
+</div>
+
+<script>
+    function send(event) {
+        event.preventDefault(); // Stop the form from submitting
+        document.getElementById('successBox').classList.remove('hidden');
+    }
+
+    function closePopup() {
+        document.getElementById('successBox').classList.add('hidden');
+        window.location.href = 'shop.php';
+    }
+</script>
+
+
+
 </body>
 </html>
