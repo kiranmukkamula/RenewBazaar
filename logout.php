@@ -30,7 +30,7 @@ if (isset($_SESSION['email'])) {
         <script>
             setTimeout(function() {
                 window.location.href = "/cse220/pages/index.php";
-            }, 3000);
+            }, 2000);
         </script>
         <style>
             .logout-message {
@@ -40,7 +40,7 @@ if (isset($_SESSION['email'])) {
                 text-align: center;
                 font-size: 18px;
                 border-radius: 5px;
-                width: 50%;
+                width: 20%;
                 margin: 50px auto;
                 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
             }
@@ -51,21 +51,24 @@ if (isset($_SESSION['email'])) {
 
     $stmt->close();
 } else {
-    echo '<div class="logout1">No User Logged in.</div>
+    echo '<div class="logout-message">No User Logged in.</div>
     <script>
             setTimeout(function() {
                 window.location.href = "/cse220/pages/index.php";
-            }, 3000);
+            }, 2000);
         </script>
         <style>
             .logout-message {
+            text-content:center;
                 background-color:rgb(226, 39, 18);
                 color: white;
                 padding: 15px;
                 text-align: center;
                 font-size: 18px;
                 border-radius: 5px;
-                width: 50%;
+                margin-top:200px;
+                width: 20%;
+                margin-top:100px;
                 margin: 50px auto;
                 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
             }
