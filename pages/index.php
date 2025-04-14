@@ -21,7 +21,7 @@
     <?php include 'header.php'; ?>
    
 <section class="relative bg-cover bg-center h-screen flex items-center" style="background-image: url('../assets/images/bg4.jpg');">
-    <div class="absolute inset-0 bg-gradient-to-br from-black/40 via-black/30 to-black/20"></div>
+    <div class="absolute inset-0 bg-gradient-to-br from-black/50 via-black/40 to-black/20"></div>
     
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="max-w-3xl p-6 sm:p-8 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20">
@@ -50,19 +50,19 @@
             <!-- Trust indicators -->
             <div class="mt-8 pt-6 border-t border-white/20 flex flex-wrap gap-6 items-center">
                 <div class="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="animate-bounce h-5 w-5 text-yellow-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                     </svg>
                     <span class="text-white text-sm">Secure Payments</span>
                 </div>
                 <div class="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="animate-bounce h-5 w-5 text-yellow-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                     </svg>
                     <span class="text-white text-sm">Quality Guaranteed</span>
                 </div>
                 <div class="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="animate-bounce h-5 w-5 text-yellow-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                     </svg>
                     <span class="text-white text-sm">Free Shipping Over $50</span>
@@ -95,7 +95,7 @@
             <div class="p-6 bg-white rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
                 <img alt="Illustration of a shopping cart with a discount tag"
                     class="w-full h-40 object-cover rounded-t-lg mb-4" height="400"
-                    src="https://storage.googleapis.com/a1aa/image/jIMjT0wF6VmA4txbc2JHcbOVfMt87sSuIaq1BUc-gAY.jpg"
+                    src="../assets/images/sale1.jpg"
                     width="600" />
                 <h3 class="text-2xl font-semibold mb-3 text-indigo-600">
                     Unbeatable Deals
@@ -107,7 +107,7 @@
             <div class="p-6 bg-white rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
                 <img alt="Illustration of a person listing items online"
                     class="w-full h-40 object-cover rounded-t-lg mb-4" height="400"
-                    src="https://storage.googleapis.com/a1aa/image/4jvSdQI7OPc8sgWM8SAm8eBIqhdiAyK0FXTzvqVVKdY.jpg"
+                    src="../assets/images/sale2.jpg"
                     width="600" />
                 <h3 class="text-2xl font-semibold mb-3 text-indigo-600">
                     Seamless Selling
@@ -119,7 +119,7 @@
             <div class="p-6 bg-white rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
                 <img alt="Illustration of a secure payment system"
                     class="w-full h-40 object-cover rounded-t-lg mb-4" height="400"
-                    src="https://storage.googleapis.com/a1aa/image/lH6uKul98KVly1KTaNAecIcBC7oG_F7yuB7I7bDb3SY.jpg"
+                    src="../assets/images/tran.jpg"
                     width="600" />
                 <h3 class="text-2xl font-semibold mb-3 text-indigo-600">
                     Secure Transactions
@@ -137,7 +137,7 @@
                 <div class="p-6 bg-white rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
                     <img alt="Image of a trending electronic gadget"
                         class="w-full h-40 object-cover rounded-t-lg mb-4" height="400"
-                        src="https://storage.googleapis.com/a1aa/image/k2zNG1a8Gq7iXGtVvE6U_f2xncLcMnXLNeOYmiPIzps.jpg"
+                        src="../assets/images/ele.jpg"
                         width="600" />
                     <h4 class="text-xl font-semibold mb-2 text-gray-800">
                         Electronic
@@ -149,22 +149,22 @@
                 <div class="p-6 bg-white rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
                     <img alt="Image of a books item"
                         class="w-full h-40 object-cover rounded-t-lg mb-4" height="400"
-                        src="/assets/images/books/book1.jpg"
+                        src="../assets/images/bik.jpg"
                         width="600" />
                     <h4 class="text-xl font-semibold mb-2 text-gray-800">
-                        Books
+                        Automobiles
                     </h4>
                     <p class="text-gray-600">
-                        Discover a wide range of books across various genres.
+                        Discover a wide range of Automobiles across various genres.
                     </p>
                 </div>
                 <div class="p-6 bg-white rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300">
                     <img alt="Image of a home decor item" class="w-full h-40 object-cover rounded-t-lg mb-4"
                         height="400"
-                        src="https://storage.googleapis.com/a1aa/image/DcsmnRak51fmE1th68p_rVSy5JbnpxXdEdXGt9dvz-c.jpg"
+                        src="../assets/images/gad.jpg"
                         width="600" />
                     <h4 class="text-xl font-semibold mb-2 text-gray-800">
-                        Home Decor
+                        Gadgets
                     </h4>
                     <p class="text-gray-600">
                         Enhance your living space with stylish home decor.
@@ -239,41 +239,45 @@
             <h2 class="text-3xl font-bold text-center mb-8">
                 Meet the Team
             </h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="flex flex-wrap justify-center gap-12">
                 <div class="text-center">
-                    <img alt="Portrait of John Doe, CEO of Renew Bazaar" class="rounded-full mx-auto mb-4" height="200"
-                        src="https://storage.googleapis.com/a1aa/image/xfEFF4I34tBIgTlq5m2zLbrRW5nzCogRT58-TfsSHIc.jpg"
-                        width="200" />
+                    <img alt="Portrait of John Doe, CEO of Renew Bazaar" class="rounded-full mx-auto mb-4" 
+                        src="../assets/images/kiran.jpeg"
+                      height="150"  width="180" />
                     <h3 class="text-xl font-bold">
-                        John Doe
+                        Kiran Mukkamula
                     </h3>
-                    <p class="text-gray-600">
-                        CEO
-                    </p>
+                   
                 </div>
                 <div class="text-center">
                     <img alt="Portrait of Jane Smith, COO of Renew Bazaar" class="rounded-full mx-auto mb-4"
-                        height="200"
-                        src="https://storage.googleapis.com/a1aa/image/kWXlw9jn2GAXBkXq8fA36T0N3k8GVH9OzomOpHhwpIc.jpg"
-                        width="200" />
+                        
+                        src="../assets/images/gaurav.jpeg"
+                       height="250"  width="220" />
                     <h3 class="text-xl font-bold">
-                        Jane Smith
+                        Gaurav Yadav
                     </h3>
-                    <p class="text-gray-600">
-                        COO
-                    </p>
+                    
                 </div>
                 <div class="text-center">
                     <img alt="Portrait of Emily Johnson, CTO of Renew Bazaar" class="rounded-full mx-auto mb-4"
-                        height="200"
-                        src="https://storage.googleapis.com/a1aa/image/vgKR0TPpNdtIcHuPd6ij5DXU2W6yTXLbBT--XuAS-FQ.jpg"
-                        width="200" />
+                       
+                        src="../assets/images/ashok.jpeg"
+                       height="150"  width="180" />
                     <h3 class="text-xl font-bold">
-                        Emily Johnson
+                        Ashok
                     </h3>
-                    <p class="text-gray-600">
-                        CTO
-                    </p>
+                    
+                </div>
+                <div class="text-center">
+                    <img alt="Portrait of Emily Johnson, CTO of Renew Bazaar" class="rounded-full mx-auto mb-4"
+                      
+                        src="../assets/images/sundaram.jpeg"
+                       height="150"  width="180" />
+                    <h3 class="text-xl font-bold">
+                        Sundaram
+                    </h3>
+                    
                 </div>
             </div>
         </section>
@@ -285,7 +289,7 @@
                 We are always looking for passionate and talented individuals to join our team. If you are interested in
                 working with us, please get in touch!
             </p>
-            <a class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700" href="contact.html">
+            <a class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700" href="contact.php">
                 Contact Us
             </a>
         </section>
@@ -410,11 +414,7 @@
     
     <?php include 'footer.php'; ?>
     
-    <!-- JavaScript files -->
-    <script src="..assets/js/script.js"></script>
-    <script src="..assets/js/cart.js"></script>
-    <script src="..assets/js/auth.js"></script>
-    <script src="..assets/js/layout.js"></script>
+  
 </body>
 
 </html>
