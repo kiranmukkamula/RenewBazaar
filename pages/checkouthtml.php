@@ -66,57 +66,6 @@
   <!-- <div id="footer-container"></div> -->
  <?php include 'footer.php'; ?>
 
-  <!-- Success Animation Overlay -->
-  <!-- <div id="success-message" class="fixed inset-0 bg-green-100 flex items-center justify-center z-50 hidden">
-    <div class="text-center">
-      <svg class="h-16 w-16 text-green-600 mx-auto animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-      </svg>
-      <h2 class="text-2xl font-bold text-green-600 mt-4">Order Successful!</h2>
-    </div>
-  </div>
-   -->
-  <script src="../assets/js/layout.js"></script>
-  <script>
-//     document.getElementById('checkout-form').addEventListener('submit', function(e) {
-//     e.preventDefault();
 
-//     var formData = new FormData(this);
-
-//     fetch('/cse220/update_name.php', {
-//         method: 'POST',
-//         body: formData
-//     })
-//     .then(response => response.json())
-//     .then(data => {
-//         if (data.status === "success") {
-//             document.getElementById('checkout-container').classList.add('hidden');
-//             document.getElementById('success-message').classList.remove('hidden');
-//             setTimeout(() => window.location.href = "index.html", 3000);
-//         } else {
-//             alert(data.message);
-//         }
-//     })
-//     .catch(error => console.error('Error:', error));
-// });
-
-
-
-    // document.getElementById('checkout-form').addEventListener('submit', function(e) {
-    //   e.preventDefault();
-    //   // Optionally validate form inputs here
-      
-    //   // Hide the checkout form container
-    //   document.getElementById('checkout-container').classList.add('hidden');
-    //   // Show success animation overlay
-    //   var successOverlay = document.getElementById('success-message');
-    //   successOverlay.classList.remove('hidden');
-      
-    //   // After 3 seconds, redirect to the homepage
-    //   setTimeout(function() {
-    //     window.location.href = "index.html";
-    //   }, 3000);
-    // });
-  </script>
 </body>
 </html>
