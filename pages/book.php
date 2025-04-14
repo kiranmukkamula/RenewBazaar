@@ -70,9 +70,14 @@ $ownerNames = [
               <h3>Name: Kiran Mukkamula</h3>
               <h3>Phone: 8886454XXX</h3>
             </div>
-            <button type="button" onclick="bookNow()" class="bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-3 rounded-md transition-colors">
-              Book Now
-            </button>
+            <div class="mt-4">
+  <button 
+    type="button" 
+    onclick="bookNow()" 
+    class="bg-green-600 hover:bg-green-700 text-white text-base font-medium px-5 py-3 rounded transition duration-200">
+    Book Now
+  </button>
+</div>
           </div>
         </div>
       </div>
