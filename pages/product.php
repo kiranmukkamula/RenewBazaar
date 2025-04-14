@@ -50,7 +50,6 @@ session_start();
   
   <?php include 'footer.php'; ?>
 
-  <script src="../assets/js/layout.js"></script>
   
   <script>
 
